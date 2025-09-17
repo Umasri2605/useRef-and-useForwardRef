@@ -1,4 +1,5 @@
 // import { useEffect, useRef } from "react"
+import A from "./A"
 import TodoList from "./Todolist"
 function App() {
   // var aRef=useRef();
@@ -17,8 +18,10 @@ function App() {
        <input type="text" ref={aRef}/>
        <button onClick={()=>{handleClick();}}>ShowText</button>
        <h3>Myname:<span ref={bRef}></span></h3>  */}
-       <h1>useRef Focus Component</h1>
-       <TodoList></TodoList>
+       {/* <h1>useRef Focus Component</h1>
+       <TodoList></TodoList> */}
+       <h1>useForwardRef Component</h1>
+       <A></A>
     </div>
     
   )
